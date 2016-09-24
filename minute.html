@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>详情</title>
+		<link rel="stylesheet" href="css/minute.css" type="text/css" />
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/cookie.js"></script>
+		<script src="js/minute.js"></script>
+	</head>
+	<body>
+		<div id="all">
+<!---------header------------->
+			<div id="header">
+				<div class="header_content">
+					<ul class="l left">
+						<li class="l">欢迎来到知我！ 这里，用专业呵护美丽。</li>
+						<li class="l land"><a href="denglu.html">请登录</a><span class="out"></span></li>
+						<li class="l gian"><a href="zhuce.html">快速注册</a></li>
+					</ul>
+					<ul class="r right">
+						<li class="l txt one">微信商城<span class="r thing"></span><span class="over pic"><img width=100 height=100 src="img/getQr.jpg" alt="扫一扫" /></span></li>
+						<li class="l txt1">手机知我</li>
+						<li class="l txt two">我的小窝<span class="r thing"></span>
+							<ul class="over">
+								<li><a href="#">我的订单</a></li>
+								<li><a href="#">我的优惠券</a></li>
+								<li><a href="#">我的预定</a></li>
+								<li><a href="#">我的收藏</a></li>
+								<li><a href="#">我的积分</a></li>
+							</ul>
+						</li>
+						<li class="l txt three">客户服务<span class="r thing"></span>
+							<ul class="over">
+								<li><a href="#">帮助中心</a></li>
+								<li><a href="#">新浪微博</a></li>
+								<li><a href="#">正品承诺</a></li>
+								<li><a href="#">真伪查询</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="header_footer">
+					<a class="l img" href="#"><img src="img/logo.jpg" alt="知我药妆" /></a>
+					<div class="l search">
+						<p class="search_input"><input class="l txt" type="text" placeholder="可莱丝" /><input class="l btn" type="button" value="" /></p>
+						<ul class="search_ul">
+							<li class="l one"><a href="#">保湿</a></li>
+							<li class="l"><a href="#">面膜</a></li>
+							<li class="l"><a href="#">洗面奶</a></li>
+							<li class="l"><a href="#">补水</a></li>
+							<li class="l"><a href="#">香水</a></li>
+							<li class="l"><a href="#">眼霜</a></li>
+							<li class="l"><a href="#">口红</a></li>
+						</ul>
+					</div>
+					<div class="l shop">
+						<p class="l img"></p>
+						<p class="l txt">我的购物车</p>
+						<p class="r thing"></p>
+					</div>
+				</div>
+			</div>
+			<!---------nav------------->
+			<div id="nav">
+				<div class="w nav_in">
+					<ul class="l nav_ul_left">
+						<li class="l one"><a class="li_a" href="#">首页</a></li>
+						<li class="l two"><a class="li_a" href="#">知我商城<span class="r nav_span_thing"></span></a>
+							<div class="list">
+								<div class="l list_left">
+									<dl class="l">
+										<dt><span class="l one_dt"></span><a class="l dt_a" href="#"><b>护肤</b></a></dt>
+										<dd class="l"><a href="list.html">面膜面贴</a></dd>
+										<dd class="l"><a href="#">乳液凝露</a></dd>
+										<dd class="l"><a href="#">洁面卸妆</a></dd>
+										<dd class="l"><a href="#">眼精华/眼霜</a></dd>
+										<dd class="l"><a href="#">防晒隔离</a></dd>
+										<dd class="l"><a href="#">化妆水爽肤水</a></dd>
+										<dd class="l"><a href="#">眼膜/眼贴</a></dd>
+										<dd class="l"><a href="#">精华</a></dd>
+									</dl>
+									<dl class="l">
+										<dt><span class="l two_dt"></span><a class="l dt_a" href="#"><b>护肤</b></a></dt>
+										<dd class="l"><a href="#">面膜面贴</a></dd>
+										<dd class="l"><a href="#">乳液凝露</a></dd>
+										<dd class="l"><a href="#">洁面卸妆</a></dd>
+										<dd class="l"><a href="#">眼精华/眼霜</a></dd>
+										<dd class="l"><a href="#">防晒隔离</a></dd>
+										<dd class="l"><a href="#">化妆水爽肤水</a></dd>
+										<dd class="l"><a href="#">眼膜/眼贴</a></dd>
+										<dd class="l"><a href="#">精华</a></dd>
+									</dl>
+									<dl class="l">
+										<dt><span class="l three_dt"></span><a class="l dt_a" href="#"><b>护肤</b></a></dt>
+										<dd class="l"><a href="#">面膜面贴</a></dd>
+										<dd class="l"><a href="#">乳液凝露</a></dd>
+										<dd class="l"><a href="#">洁面卸妆</a></dd>
+										<dd class="l"><a href="#">眼精华/眼霜</a></dd>
+										<dd class="l"><a href="#">防晒隔离</a></dd>
+										<dd class="l"><a href="#">化妆水爽肤水</a></dd>
+										<dd class="l"><a href="#">眼膜/眼贴</a></dd>
+										<dd class="l"><a href="#">精华</a></dd>
+									</dl>
+									<dl class="l">
+										<dt><span class="l four_dt"></span><a class="l dt_a" href="#"><b>护肤</b></a></dt>
+										<dd class="l"><a href="#">面膜面贴</a></dd>
+										<dd class="l"><a href="#">乳液凝露</a></dd>
+										<dd class="l"><a href="#">洁面卸妆</a></dd>
+										<dd class="l"><a href="#">眼精华/眼霜</a></dd>
+										<dd class="l"><a href="#">防晒隔离</a></dd>
+										<dd class="l"><a href="#">化妆水爽肤水</a></dd>
+										<dd class="l"><a href="#">眼膜/眼贴</a></dd>
+										<dd class="l"><a href="#">精华</a></dd>
+									</dl>
+								</div>
+								<div class="r list_right">
+									<a href="#">
+										<img src="img/2662509817165298600.jpg" alt="知派会员大狂欢" />
+									</a>
+								</div>
+							</div>
+						</li>
+						<li class="l three"><a class="li_a" href="#"><img class="show" src="img/home_overseas.gif" alt="知我海淘" /><img class="hide" src="img/home_overseas_current.gif" alt="知我海淘" /></a></li>
+					</ul>
+					<ul class="r nav_ul_right">
+						<li class="l ul_right_li"><a href="#"><span class="l sp1"></span>百度投资</a></li>
+						<li class="l ul_right_li"><a href="#"><span class="l sp2"></span>正品保证</a></li>
+						<li class="l ul_right_li"><a href="#"><span class="l sp3"></span>两件包邮</a></li>
+						<li class="l ul_right_li"><a href="#"><span class="l sp4"></span>30天无理由退</a></li>
+					</ul>
+				</div>
+			</div>
+			
+<!------------content-------------->
+
+		<div id="content" class="w">
+			<div class="content_top">
+				<ul>
+					<li><a href="index.html">商城首页</a></li>
+					<li><b>></b></li>
+					<li><a href="list.html">面膜面贴</a></li>
+					<li><b>></b></li>
+					<li><a href="#">Borghese/贝佳斯</a></li>
+					<li><a href="#"><b>></b></a></li>
+					<li class="a_name"></li>
+				</ul>
+			</div>
+			<div class="show1">
+				
+			</div>
+			<div class="hot">
+				<ul>
+					<li class="li_first">品牌热卖</li>
+					<li><a href="#">Jessica's journey/杰西卡的旅行</a></li>
+					<li><a href="#">Clinique/倩碧</a></li>
+					<li><a href="#">AUPRES/欧珀莱</a></li>
+					<li><a href="#">SHISEIDO/资生堂</a></li>
+					<li><a href="#">Estee Lauder/雅诗兰黛 </a></li>
+					<li><a href="#">The Body Shop/美体小铺</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<p class="list"><span>组合购买</span></p>
+				<div class="l pic">
+					<img src="img/p1.jpg"/>
+					<p class="pp1"><a href="#">贝佳斯矿物营养活肤泥浆面膜(绿泥) 212g</a></p>
+					<p class="pp2">￥ 129.00</p>
+				</div>
+				<div class="l hao"><img src="img/jia.png" /></div>
+				<div class="l pic">
+					<img src="img/p2.jpg"/>
+					<p class="pp1"><a href="#">知我药妆化妆棉100片（蓝色）</a></p>
+					<p class="pp2">￥ 19.9</p>
+				</div>
+				<div class="l hao"><img src="img/jia.png" /></div>
+				<div class="l pic">
+					<img src="img/p3.jpg"/>
+					<p class="pp1"><a href="#">丝塔芙洁面乳118ml（专柜）</a></p>
+					<p class="pp2">￥ 45</p>
+				</div>
+				<div class="l hao"><img src="img/jia.png" /></div>
+				<div class="l pic">
+					<img src="img/p4.jpg"/>
+					<p class="pp1"><a href="#">韩国AHC第四代眼霜30ml</a></p>
+					<p class="pp2">￥ 128</p>
+				</div>
+				<div class="l hao"><img src="img/deng.png" /></div>
+				<div class="l pic2">
+					<p class="p_top"><span style="color:#f60;"><b>4</b></span><b>件商品组合购买</b></p>
+					<p>知我总价 ：<span style="color:#f60; font-size:16px;">￥321.00</span></p>
+					<p>市场总价 ：￥635.00</p>
+					<p>为您节省： ￥323.00</p>
+					<p class="last"><a href="#">购买套组</a></p>
+				</div>
+			</div>
+			<p class="same">同品牌销量排行 SAME BRAND SALES RANKING</p>
+			<div class="d_dl">
+				<dl class="l same_dl">
+					<dt class="same_dt"><a href="#"><span><img src="img/d1.jpg" /><span></a></dt>
+					<dd class="same_dd">
+						<p class="same_p1">贝佳斯矿物营养泥浆面膜（白泥）212g</p>
+						<p class="same_p2"><span class="same_sp1">￥129</span><span class="same_sp2">￥295.0</span><span class="r same_sp3">加入购物车</span></p>
+					</dd>	
+				</dl>
+				<dl class="l same_dl">
+					<dt class="same_dt"><a href="#"><span><img src="img/d2.jpg" /><span></a></dt>
+					<dd class="same_dd">
+						<p class="same_p1">贝佳斯活力亮采美肤泥浆面膜（粉泥）200ml</p>
+						<p class="same_p2"><span class="same_sp1">￥119</span><span class="same_sp2">￥320.0</span><span class="r same_sp3">加入购物车</span></p>
+					</dd>	
+				</dl>
+				<dl class="l same_dl">
+					<dt class="same_dt"><a href="#"><span><img src="img/d3.jpg" /><span></a></dt>
+					<dd class="same_dd">
+						<p class="same_p1">贝佳斯矿物营养美肤绿泥浆膜28g（授）</p>
+						<p class="same_p2"><span class="same_sp1">￥119</span><span class="same_sp2">￥320.0</span><span class="r same_sp3">加入购物车</span></p>
+					</dd>	
+				</dl>
+				<dl class="l same_dl">
+					<dt class="same_dt"><a href="#"><span><img src="img/d4.jpg" /><span></a></dt>
+					<dd class="same_dd">
+						<p class="same_p1">贝佳斯妍白矿物眼部紧致膜20ml（授）</p>
+						<p class="same_p2"><span class="same_sp1">￥119</span><span class="same_sp2">￥320.0</span><span class="r same_sp3">加入购物车</span></p>
+					</dd>	
+				</dl>
+			</div>
+			<div class="w bot">
+				<div class="l bot_left">
+					<p class="left_p1">同分类排行RANKING</p>
+					<dl>
+						<dt class="l"><img src="img/b1.jpg" /></dt>
+						<dd class="l">
+							<p>韩国SNP动物面膜(龙款-镇定舒缓)10片/盒</p>
+							<p style="color:#ff7c3c;">￥119.0</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="l"><img src="img/b2.jpg" /></dt>
+						<dd class="l">
+							<p>韩国SNP京剧脸谱水库面膜10片/盒</p>
+							<p style="color:#ff7c3c;">￥109.0</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="l"><img src="img/b3.jpg" /></dt>
+						<dd class="l">
+							<p>杰西卡的旅行—阳明山花漾保湿蚕丝面膜*5片（无盒）</p>
+							<p style="color:#ff7c3c;">￥59.9</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="l"><img src="img/b4.jpg" /></dt>
+						<dd class="l">
+							<p>杰西卡的旅行备长炭负离子黑面膜25ml</p>
+							<p style="color:#ff7c3c;">￥29.0</p>
+						</dd>
+					</dl>
+					<p class="left_p2">买过还买过</p>
+					<dl>
+						<dt class="l"><img src="img/b5.jpg" /></dt>
+						<dd class="l">
+							<p>透蜜 花蜜撕拉唇膜（樱桃粉）15G</p>
+							<p style="color:#ff7c3c;">￥45</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="l"><img src="img/b7.jpg" /></dt>
+						<dd class="l">
+							<p>韦氏绵羊油多效修护倍润霜150g</p>
+							<p style="color:#ff7c3c;">￥15.8</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="l"><img src="img/b8.jpg" /></dt>
+						<dd class="l">
+							<p>美若康隐形净痘贴（夜用12贴）</p>
+							<p style="color:#ff7c3c;">￥24</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="l"><img src="img/b10.jpg" /></dt>
+						<dd class="l">
+							<p>兰芝水库凝肌面霜10ml</p>
+							<p style="color:#ff7c3c;">￥17</p>
+						</dd>
+					</dl>
+					<p class="left_p2">看过还看过</p>
+					<dl>
+						<dt class="l"><img src="img/b11.jpg" /></dt>
+						<dd class="l">
+							<p>贝佳斯活力亮采美肤泥浆面膜（粉泥）200ml</p>
+							<p style="color:#ff7c3c;">￥129</p>
+						</dd>
+					</dl>
+					<dl>
+						<dt class="l"><img src="img/b12.jpg" /></dt>
+						<dd class="l">
+							<p>御泥坊清爽平衡矿物泥浆面膜260g</p>
+							<p style="color:#ff7c3c;">￥139</p>
+						</dd>
+					</dl> 
+				</div>
+				<div class="r bot_right">
+					
+					<div class="move">
+						<ul class="l">
+							<li><b>商品参数</b></li>
+							<li><b>本单详情</b></li>
+							<li><b>使用方法</b></li>
+							<li><b>用户口碑</b></li>
+						</ul>
+						<p class="r">
+							<span class="l move_sp1"><b>￥129.0</b></span>
+							<span class="r move_sp2">加入购物车</span>
+						</p>
+				</div>
+				</div>
+				
+			</div>
+						
+		</div>
+
+<!------------footer-------------->
+			<div id="footer">
+				<div class="w footer_top">
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>真品保证</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">品牌合作</a></p>
+							<p class="footer_top_p"><a href="#">严格把关</a></p>
+							<p class="footer_top_p"><a href="#">百度投资</a></p>
+							<p class="footer_top_p"><a href="#">全球品牌直销</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>30天包换</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">退换货政策</a></p>
+							<p class="footer_top_p"><a href="#">办理退换货</a></p>
+							<p class="footer_top_p"><a href="#">售后服务</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>2件包邮</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">配送政策</a></p>
+							<p class="footer_top_p"><a href="#">快递查询</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>药妆专柜</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">肤质判断</a></p>
+							<p class="footer_top_p"><a href="#">肌肤问题</a></p>
+							<p class="footer_top_p"><a href="#">达人推荐</a></p>
+							<p class="footer_top_p"><a href="#">护肤常识</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>关于知我</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">知我介绍</a></p>
+							<p class="footer_top_p"><a href="#">商务合作</a></p>
+							<p class="footer_top_p"><a href="#">友情链接</a></p>
+							<p class="footer_top_p"><a href="#">开放API</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>新手指南</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">购物流程</a></p>
+							<p class="footer_top_p"><a href="#">支付方式</a></p>
+							<p class="footer_top_p"><a href="#">化妆品品牌大全</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>联系方式</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">在线客服咨询</a></p>
+							<p class="footer_top_p"><a href="#"><b>热线</b></a></p>
+							<p class="footer_top_p"><a style="color:#00c8ff" href="#"><b>400-630-1018</b></a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>&nbsp;知我微信商城</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><img width=100 height=100 src="img/android_ewm.png"></p>
+						</dd>
+					</dl>
+				</div>
+				<div class="footer_center">
+					<ul>
+						<li class="l cen_li1">百度投资</li>
+						<li class="l cen_li2">真品保证</li>
+						<li class="l cen_li3">30天包退</li>
+						<li class="l cen_li4">2件包邮</li>
+					</ul>
+				</div>
+				<div class="footer_bottom">
+					<p class="bottom_p1">@2011-2014 般若天成（北京）科技有限公司 zhiwo.com 保留一切权利。客服热线：400-630-1018</p>
+					<ul class="bottom_ul1">
+						<li class="l bottom_li1"><a href="#">京ICP备10047008号</a></li>
+						<li class="l bottom_li1"><a href="#">京ICP证110762号</a></li>
+						<li class="l bottom_li1"><a href="#">网公安备1101054365号</a></li>
+						<li class="l bottom_li1 _last"><a href="#">营业执照</a></li>
+					</ul>
+					<ul class="bottom_ul2">
+						<li class="l bottom_li2"><img src="img/footer_copy_02.jpg" /></li>
+						<li class="l bottom_li2"><img src="img/footer_copy_03.jpg" /></li>
+						<li class="l bottom_li2"><img src="img/footer_copy_05.jpg" /></li>
+					</ul>
+				</div>
+			</div>
+			<div id="all_right">
+				<ul class="all_right_ul1">
+					<li class="ul1_li mi"><span class="mi_sp"></span><div class="ul1_d mi_l"><a class="li_deng_a" href="denglu.html">登录</a>&nbsp;&nbsp;<a class="li_zhu_a" href="zhuce.html">注册</a></div></li>
+					<li class="ul1_li hear"><a class="hear_a" href="#"></a><div class="ul1_d hear_l"><a href="#">我的收藏</a></div></li>
+					<li class="ul1_li foot"><a class="foot_a" href="#"></a><div class="ul1_d foot_l"><a href="#">我的看过的</a></div></li>
+				</ul>
+				<p class="all_r_p">
+					<i class="all_r_i"></i>
+					<span class="all_r_sp"><b>TOP</b></span>
+				</p>
+			</div>
+		</div>	
+	</body>
+</html>

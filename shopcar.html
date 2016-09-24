@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="css/shopcar.css" type="text/css" />
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/cookie.js"></script>
+		<script src="js/shopcar.js"></script>
+	</head>
+	<body>
+		<div id="all">
+<!---------header------------->
+			<div id="header">
+				<div class="header_content">
+					<ul class="l left">
+						<li class="l">欢迎来到知我！ 这里，用专业呵护美丽。</li>
+						<li class="l land"><a href="denglu.html">请登录</a><span class="out"></span></li>
+						<li class="l gian"><a href="zhuce.html">快速注册</a></li>
+					</ul>
+					<ul class="r right">
+						<li class="l txt one">微信商城<span class="r thing"></span><span class="over pic"><img width=100 height=100 src="img/getQr.jpg" alt="扫一扫" /></span></li>
+						<li class="l txt1">手机知我</li>
+						<li class="l txt two">我的小窝<span class="r thing"></span>
+							<ul class="over">
+								<li><a href="#">我的订单</a></li>
+								<li><a href="#">我的优惠券</a></li>
+								<li><a href="#">我的预定</a></li>
+								<li><a href="#">我的收藏</a></li>
+								<li><a href="#">我的积分</a></li>
+							</ul>
+						</li>
+						<li class="l txt three">客户服务<span class="r thing"></span>
+							<ul class="over">
+								<li><a href="#">帮助中心</a></li>
+								<li><a href="#">新浪微博</a></li>
+								<li><a href="#">正品承诺</a></li>
+								<li><a href="#">真伪查询</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+<!------------banner-------------->
+
+			<div id="banner">
+				<div class="w1">
+					<a class="l" href="#"><img src="img/logo.jpg" /></a>
+					<img class="r" src="img/r.gif" />
+				</div>
+			</div>
+			
+<!------------content-------------->			
+			
+			<div id="content">
+				<div class="w1">
+					<div class="content_top">
+						<p class="l left">我的购物车 My Cart</p>
+						<p class="r right">每单运费<span style="color:#ff643c;">5</span>元 购买<span style="color:#ff643c;">任意两件</span>免运费</p>
+					</div>
+				</div>
+				<div class="w1 thing">
+					<div class="list">
+						<p class="l">选购的商品</p>
+						<ul class="r">
+							<li>单价</li>
+							<li>数量</li>
+							<li>金额小计</li>
+							<li>赠送积分</li>
+							<li>操作</li>
+						</ul>
+					</div>
+				</div>
+				<div class="car1">
+				</div>	
+				<div class="w1 and">
+					<p class="l clear_all">全部删除</p>
+					<p class="l next">继续购物</p>
+					<ul class="r">
+						<li>共
+							<span class="num_all" style="color:#ff643c">0</span>件商品
+						</li>
+						<li>应付金额（不含运费）：</li>
+						<li class="pic_all_li">￥<span class="pic_all_sp"></span></li>
+						<li class="end"> 去结算</li>
+					</ul>
+				</div>
+				<p class="w1 more">加价购 Increase purchase</p>
+				<ul class="w1 choose">
+					<li class="l first">10元以下专区</li>
+					<li class="l">10至20元专区</li>
+					<li class="l">30元以上专区</li>
+				</ul>
+				<ul class="w1 small" style="display: block;">
+					<li>
+						<img src="img/m1.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥8<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m2.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥7<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m3.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥6<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m4.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥9<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m5.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥8<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m6.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥6 <span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					
+				</ul>
+				<ul class="w1 small">
+					<li>
+						<img src="img/m7.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥18<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m8.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥17<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m9.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥16<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m10.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥19<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m11.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥18<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m12.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥16 <span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					
+				</ul>
+				<ul class="w1 small">
+					<li>
+						<img src="img/m3.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥48<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m4.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥57<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m14.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥36<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m2.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥59<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m1.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥48<span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					<li>
+						<img src="img/m13.jpg" />
+						<p class="small_p1">英国AA网佛手柑高保湿手工皂125g</p>
+						<p class="small_p2">￥46 <span class="small_span">￥75.00</span></p>
+						<p class="small_p3">加入购物车</p>
+					</li>
+					
+				</ul>
+				<p class="w1 more">今日特卖推荐 Recommended sale today</p>
+				<div class="w1 content_recomm">
+					<div class="recomm_move"></div>
+					<div class="move_left"></div>
+					<div class="move_right"></div>
+				</div>
+			</div>
+			
+<!------------footer-------------->
+			<div id="footer">
+				<div class="w footer_top">
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>真品保证</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">品牌合作</a></p>
+							<p class="footer_top_p"><a href="#">严格把关</a></p>
+							<p class="footer_top_p"><a href="#">百度投资</a></p>
+							<p class="footer_top_p"><a href="#">全球品牌直销</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>30天包换</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">退换货政策</a></p>
+							<p class="footer_top_p"><a href="#">办理退换货</a></p>
+							<p class="footer_top_p"><a href="#">售后服务</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>2件包邮</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">配送政策</a></p>
+							<p class="footer_top_p"><a href="#">快递查询</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>药妆专柜</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">肤质判断</a></p>
+							<p class="footer_top_p"><a href="#">肌肤问题</a></p>
+							<p class="footer_top_p"><a href="#">达人推荐</a></p>
+							<p class="footer_top_p"><a href="#">护肤常识</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>关于知我</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">知我介绍</a></p>
+							<p class="footer_top_p"><a href="#">商务合作</a></p>
+							<p class="footer_top_p"><a href="#">友情链接</a></p>
+							<p class="footer_top_p"><a href="#">开放API</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>新手指南</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">购物流程</a></p>
+							<p class="footer_top_p"><a href="#">支付方式</a></p>
+							<p class="footer_top_p"><a href="#">化妆品品牌大全</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>联系方式</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">在线客服咨询</a></p>
+							<p class="footer_top_p"><a href="#"><b>热线</b></a></p>
+							<p class="footer_top_p"><a style="color:#00c8ff" href="#"><b>400-630-1018</b></a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>&nbsp;知我微信商城</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><img width=100 height=100 src="img/android_ewm.png"></p>
+						</dd>
+					</dl>
+				</div>
+				<div class="footer_center">
+					<ul>
+						<li class="l cen_li1">百度投资</li>
+						<li class="l cen_li2">真品保证</li>
+						<li class="l cen_li3">30天包退</li>
+						<li class="l cen_li4">2件包邮</li>
+					</ul>
+				</div>
+				<div class="footer_bottom">
+					<p class="bottom_p1">@2011-2014 般若天成（北京）科技有限公司 zhiwo.com 保留一切权利。客服热线：400-630-1018</p>
+					<ul class="bottom_ul1">
+						<li class="l bottom_li1"><a href="#">京ICP备10047008号</a></li>
+						<li class="l bottom_li1"><a href="#">京ICP证110762号</a></li>
+						<li class="l bottom_li1"><a href="#">网公安备1101054365号</a></li>
+						<li class="l bottom_li1 _last"><a href="#">营业执照</a></li>
+					</ul>
+					<ul class="bottom_ul2">
+						<li class="l bottom_li2"><img src="img/footer_copy_02.jpg" /></li>
+						<li class="l bottom_li2"><img src="img/footer_copy_03.jpg" /></li>
+						<li class="l bottom_li2"><img src="img/footer_copy_05.jpg" /></li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>

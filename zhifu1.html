@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>确认支付</title>
+		<link rel="stylesheet" href="css/zhifu1.css" type="text/css" />
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/cookie.js"></script>
+		<script src="js/zhifu1.js"></script>
+	</head>
+	<body>
+		<div id="all">
+<!---------header------------->
+			<div id="header">
+				<div class="header_content">
+					<ul class="l left">
+						<li class="l">欢迎来到知我！ 这里，用专业呵护美丽。</li>
+						<li class="l land"><a href="denglu.html">请登录</a><span class="out"></span></li>
+						<li class="l gian"><a href="zhuce.html">快速注册</a></li>
+					</ul>
+					<ul class="r right">
+						<li class="l txt one">微信商城<span class="r thing"></span><span class="over pic"><img width=100 height=100 src="img/getQr.jpg" alt="扫一扫" /></span></li>
+						<li class="l txt1">手机知我</li>
+						<li class="l txt two">我的小窝<span class="r thing"></span>
+							<ul class="over">
+								<li><a href="#">我的订单</a></li>
+								<li><a href="#">我的优惠券</a></li>
+								<li><a href="#">我的预定</a></li>
+								<li><a href="#">我的收藏</a></li>
+								<li><a href="#">我的积分</a></li>
+							</ul>
+						</li>
+						<li class="l txt three">客户服务<span class="r thing"></span>
+							<ul class="over">
+								<li><a href="#">帮助中心</a></li>
+								<li><a href="#">新浪微博</a></li>
+								<li><a href="#">正品承诺</a></li>
+								<li><a href="#">真伪查询</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+<!------------banner-------------->
+
+			<div id="banner">
+				<div class="w1">
+					<a class="l" href="#"><img src="img/logo.jpg" /></a>
+					<img class="r" src="img/rr.gif" />
+				</div>
+			</div>
+<!------------content-------------->
+
+			<div id="content">
+				<div class="w1 content_top">
+					<p class="one"><span><b>1</b></span>&nbsp;&nbsp;收货地址</p>
+					<table>
+						<tr>
+							<td class="txt_td">收件人姓名:&nbsp;<span>*</span></td>
+							<td>
+								<input class="name" type="text" placeholder="收件人姓名" />
+							</td>
+							<td class="name_td"><span class="td_span">请填写正确的收货人姓名</span></td>
+						</tr>
+						<tr>
+							<td class="txt_td">所在地区:&nbsp;<span>*</span></td>
+							<td>
+								<select class="se1">
+									<option selected>请选择</option>
+									<option>北京市</option>
+									<option>天津市</option>
+									<option>河北省</option>
+									<option>山西省</option>
+									<option>江苏省</option>
+								</select>
+								<select class="se2">
+									<option selected>市</option>
+									<option>市辖区</option>
+									<option>县</option>
+								</select>
+								<select class="se3">
+									<option selected>区/县</option>
+									<option>东城区</option>
+									<option>西城区</option>
+									<option>崇文区</option>
+									<option>玄武区</option>
+									<option>朝阳区</option>
+									<option>丰台区</option>
+									<option>石景山区</option>
+									<option>海淀区</option>
+									<option>昌平区</option>
+									<option>顺义区</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+								<td class="txt_td">详细地址:&nbsp;<span>*</span></td>
+								<td>
+									<input class="id2" type="text" placeholder="请填写详细地址" />
+								</td>
+								<td class="id2_td"><span class="td_span">请填写详细地址，不少于3个汉字，不能全部是数字/字母</span></td>
+							</tr>
+							<tr>
+								<td class="txt_td">邮政编码:<span>*</span></td>
+								<td>
+									<input class="ems" type="text" />
+								</td>
+								<td class="ems_td"><span class="td_span">邮政编码错误</span></td>
+							</tr>
+							<tr>
+								<td class="txt_td">手机号码:<span>*</span></td>
+								<td>
+									<input class="phone" type="text" />&nbsp;&nbsp;或&nbsp;&nbsp;固定电话&nbsp;&nbsp;
+									<input type="text" />
+								</td>
+								<td class="phone_td"><span class="td_span">请填写正确手机号码</span></td>
+							</tr>
+							<tr>
+								<td class="txt_td">邮箱: </td>
+								<td>
+									<input class="e_mell" type="text" />
+								</td>
+								<td class="e_mell_td"><span class="td_span">邮箱：
+邮箱错误</span></td>
+							</tr>
+					</table>
+					<p class="use"><b>保存并使用</b></p>
+				</div>
+				<div class="w1 content_top2">
+					<p class="content_top2_p1"><span><b>1</b></span>&nbsp;&nbsp;收货地址</p>
+					<p class="content_top3">
+						<span class="l name_sp"></span>
+						<span class="l phone_sp"></span>
+						<span class="l id_sp"></span>
+						<span class="l ems_sp"></span>
+						<span class="r clear" style="color:red">删除</span>
+					</p>
+					<p class="new"><span class="l new_sp"></span>使用新地址</p>
+				</div>
+				<p class="w1 content_list"><span><b>2</b></span>&nbsp;&nbsp;商品清单<a class="r" href="shopcar.html"><<返回购物车</a></p>
+				<div class="w1 content_thing">
+					<div class="in">
+						<p class="l">选购的商品</p>
+						<ul class="r">
+							<li>单价</li>
+							<li>数量</li>
+							<li>金额小计</li>
+						</ul>
+					</div>
+				</div>	
+				<div class="w1 car"></div>
+				<div class="w1 all_pic">
+					<ul class="l left">
+						<li class="li1">使用知我药妆优惠券</li>
+						<li class="li1">请输入红包号</li>
+						<li class="li2">账户余额:<span style="color:#ff643c">0.00</span></li>
+					</ul>
+					<div class="r right">
+						<dl class="right_dl">
+							<dt class="l right_dt">总价 :</dt>
+							<dd class="l oldpic">￥ 39</dd>
+						</dl>
+						<dl class="right_dl">
+							<dt class="l right_dt">运费 :</dt>
+							<dd class="l right_dd">￥ 5</dd>
+						</dl>
+						<dl class="right_dl">
+							<dt class="l right_dt">需支付总金额 :</dt>
+							<dd class="l newpic">￥ 39</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="w1 way">
+					<p class="way_p"><span>3</span>&nbsp;&nbsp;支付方式</p>
+					<p class="terrace">支付平台</p>
+					<div class="way_top">
+						<div class="l img i1">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i2">
+							<span class="img_sp"></span>
+						</div>
+					</div>	
+					<p class="wang">网银支付</p>
+					<div class="way_cont">
+						<div class="l img i3">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i4">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i5">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i6">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i7">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i8">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i9">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i10">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i11">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i12">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i13">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i14">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i15">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i16">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i17">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i18">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i19">
+							<span class="img_sp"></span>
+						</div>
+					</div>
+					<p class="shot">信用卡支付（快捷支付）</p>
+						<div class="l img i20">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i21">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i22">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i23">
+							<span class="img_sp"></span>
+						</div>
+						<div class="l img i24">
+							<span class="img_sp"></span>
+						</div>
+				</div>
+				<div class="w1 content_sure">
+					<p class="sure_p"><span><b>4</b></span>&nbsp;&nbsp;订单备注</p>
+					<div class="l left">
+						<p class="left_p">如您有特殊要求，请在此处留言，限140字以内</p>
+						<input type="text" />
+					</div>
+					<div class='r right'>
+						<p class="l r_p1">应付金额：</p>
+						<p class="l r_p2"></p>
+						<p class="l r_p3">确定订单</p>
+					</div>
+				</div>
+			</div>
+			
+<!------------footer-------------->
+			<div id="footer">
+				<div class="w footer_top">
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>真品保证</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">品牌合作</a></p>
+							<p class="footer_top_p"><a href="#">严格把关</a></p>
+							<p class="footer_top_p"><a href="#">百度投资</a></p>
+							<p class="footer_top_p"><a href="#">全球品牌直销</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>30天包换</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">退换货政策</a></p>
+							<p class="footer_top_p"><a href="#">办理退换货</a></p>
+							<p class="footer_top_p"><a href="#">售后服务</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>2件包邮</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">配送政策</a></p>
+							<p class="footer_top_p"><a href="#">快递查询</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>药妆专柜</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">肤质判断</a></p>
+							<p class="footer_top_p"><a href="#">肌肤问题</a></p>
+							<p class="footer_top_p"><a href="#">达人推荐</a></p>
+							<p class="footer_top_p"><a href="#">护肤常识</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>关于知我</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">知我介绍</a></p>
+							<p class="footer_top_p"><a href="#">商务合作</a></p>
+							<p class="footer_top_p"><a href="#">友情链接</a></p>
+							<p class="footer_top_p"><a href="#">开放API</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>新手指南</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">购物流程</a></p>
+							<p class="footer_top_p"><a href="#">支付方式</a></p>
+							<p class="footer_top_p"><a href="#">化妆品品牌大全</a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>联系方式</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><a href="#">在线客服咨询</a></p>
+							<p class="footer_top_p"><a href="#"><b>热线</b></a></p>
+							<p class="footer_top_p"><a style="color:#00c8ff" href="#"><b>400-630-1018</b></a></p>
+						</dd>
+					</dl>
+					<dl class="l footer_dl">
+						<dt class="footer_dt"><b>&nbsp;知我微信商城</b></dt>
+						<dd class="footer_dd">
+							<p class="footer_top_p"><img width=100 height=100 src="img/android_ewm.png"></p>
+						</dd>
+					</dl>
+				</div>
+				<div class="footer_center">
+					<ul>
+						<li class="l cen_li1">百度投资</li>
+						<li class="l cen_li2">真品保证</li>
+						<li class="l cen_li3">30天包退</li>
+						<li class="l cen_li4">2件包邮</li>
+					</ul>
+				</div>
+				<div class="footer_bottom">
+					<p class="bottom_p1">@2011-2014 般若天成（北京）科技有限公司 zhiwo.com 保留一切权利。客服热线：400-630-1018</p>
+					<ul class="bottom_ul1">
+						<li class="l bottom_li1"><a href="#">京ICP备10047008号</a></li>
+						<li class="l bottom_li1"><a href="#">京ICP证110762号</a></li>
+						<li class="l bottom_li1"><a href="#">网公安备1101054365号</a></li>
+						<li class="l bottom_li1 _last"><a href="#">营业执照</a></li>
+					</ul>
+					<ul class="bottom_ul2">
+						<li class="l bottom_li2"><img src="img/footer_copy_02.jpg" /></li>
+						<li class="l bottom_li2"><img src="img/footer_copy_03.jpg" /></li>
+						<li class="l bottom_li2"><img src="img/footer_copy_05.jpg" /></li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>
